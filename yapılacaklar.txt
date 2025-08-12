@@ -1,0 +1,86 @@
+1. Schema Markup (Yapılandırılmış Veri) EKSİK ⚠️
+ÇOK ÖNEMLİ: Google Search Console'da zengin sonuçlar için schema markup'lar eksik:
+html<!-- Ana sayfa için Local Business Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Plumber",
+  "name": "Ankara Tesisat",
+  "description": "Ankara'da 7/24 profesyonel su tesisatçısı hizmeti. Kırmadan su kaçağı tespiti, tıkalı kanal açma.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Ankara",
+    "addressCountry": "TR"
+  },
+  "telephone": "+905374852804",
+  "openingHours": "Mo-Su 00:00-23:59",
+  "areaServed": ["Ankara", "Çankaya", "Keçiören", "Yenimahalle", "Mamak"],
+  "serviceType": ["Su Kaçağı Tespiti", "Tıkalı Kanal Açma", "Kalorifer Tesisatı"],
+  "priceRange": "$$"
+}
+</script>
+2. Google My Business Entegrasyonu
+
+📍 Google Haritalar embed'i eksik
+⭐ Google yorumları widget'ı eklenebilir
+📞 Direkt arama butonları mevcut ✅
+
+3. Site Hızı Optimizasyonu
+html<!-- Resim optimizasyonu için WebP formatı -->
+<img src="img/service-1.webp" alt="Ankara tıkalı kanal açma" loading="lazy">
+
+<!-- Critical CSS inline -->
+<style>
+  /* Critical CSS burada olmalı */
+</style>
+
+<!-- Non-critical CSS'i async yükle -->
+<link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+4. İçerik Genişletme Önerileri
+Blog Bölümü Açın: SEO için çok güçlü potansiyel
+
+"Ankara'da En Yaygın Tesisat Sorunları"
+"Su Kaçağını Nasıl Anlarım? 5 İşaret"
+"Kış Aylarında Boru Donması Nasıl Önlenir?"
+"Ankara İlçelerine Özel Tesisat Tavsiyeleri"
+
+
+📈 ANAHTAR KELİME STRATEJİSİ
+Mevcut Güçlü Kelimeler:
+
+✅ "Ankara su tesisatçısı"
+✅ "su kaçağı tespiti Ankara"
+✅ "kırmadan su kaçağı bulma"
+✅ "ankara tıkalı kanal açma"
+
+Eklenmesi Gereken Kelimeler:
+
+🎯 "ankara acil tesisatçı"
+🎯 "ankara 24 saat tesisatçı"
+🎯 "ankara en iyi tesisatçı"
+🎯 "ankara uygun tesisatçı"
+🎯 "çankaya tesisatçı", "keçiören tesisatçı" (ilçe bazlı)
+
+
+🔧 TEKNİK İYİLEŞTİRMELER
+1. Meta Tag Geliştirmeleri
+html<!-- Mevcut title iyi ama şöyle optimize edilebilir -->
+<title>Ankara'nın En İyi Tesisatçısı | 7/24 Su Kaçağı Tespiti | Ankara Tesisat</title>
+
+<!-- Open Graph Tags ekleyin -->
+<meta property="og:title" content="Ankara Su Tesisatçısı | Ankara Tesisat">
+<meta property="og:description" content="Ankara'da kırmadan su kaçağı tespiti, 7/24 acil servis">
+<meta property="og:image" content="img/ankara-tesisat-logo.jpg">
+<meta property="og:url" content="https://ankaratesisat.com">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image">
+2. Internal Linking Güçlendirme
+
+Ana sayfadan hizmet sayfalarına daha fazla link
+"İlgili Hizmetler" bölümü ekleyin
+Breadcrumb navigation ekleyin
+
+3. URL Yapısı (Zaten İyi ama...)
+✅ Mevcut: ankara-su-kacagi-tespiti.html
+🎯 Daha iyi: hizmetlerimiz/ankara-su-kacagi-tespiti/
