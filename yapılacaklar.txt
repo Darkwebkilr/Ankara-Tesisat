@@ -5,8 +5,8 @@ html<!-- Ana sayfa için Local Business Schema -->
 {
   "@context": "https://schema.org",
   "@type": "Plumber",
-  "name": "Ankara Tesisat",
-  "description": "Ankara'da 7/24 profesyonel su tesisatçısı hizmeti. Kırmadan su kaçağı tespiti, tıkalı kanal açma.",
+  "name": "Elzemm Tesisat",
+  "description": "Elzemm'de 7/24 profesyonel su tesisatçısı hizmeti. Kırmadan su kaçağı tespiti, tıkalı kanal açma.",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Ankara",
@@ -39,7 +39,7 @@ html<!-- Resim optimizasyonu için WebP formatı -->
 4. İçerik Genişletme Önerileri
 Blog Bölümü Açın: SEO için çok güçlü potansiyel
 
-"Ankara'da En Yaygın Tesisat Sorunları"
+"Elzemm'de En Yaygın Tesisat Sorunları"
 "Su Kaçağını Nasıl Anlarım? 5 İşaret"
 "Kış Aylarında Boru Donması Nasıl Önlenir?"
 "Ankara İlçelerine Özel Tesisat Tavsiyeleri"
@@ -65,11 +65,11 @@ Eklenmesi Gereken Kelimeler:
 🔧 TEKNİK İYİLEŞTİRMELER
 1. Meta Tag Geliştirmeleri
 html<!-- Mevcut title iyi ama şöyle optimize edilebilir -->
-<title>Ankara'nın En İyi Tesisatçısı | 7/24 Su Kaçağı Tespiti | Ankara Tesisat</title>
+<title>Elzemm'in En İyi Tesisatçısı | 7/24 Su Kaçağı Tespiti | Elzemm Tesisat</title>
 
 <!-- Open Graph Tags ekleyin -->
-<meta property="og:title" content="Ankara Su Tesisatçısı | Ankara Tesisat">
-<meta property="og:description" content="Ankara'da kırmadan su kaçağı tespiti, 7/24 acil servis">
+<meta property="og:title" content="Ankara Su Tesisatçısı | Elzemm Tesisat">
+<meta property="og:description" content="Elzemm'de kırmadan su kaçağı tespiti, 7/24 acil servis">
 <meta property="og:image" content="img/ankara-tesisat-logo.jpg">
 <meta property="og:url" content="https://ankaratesisat.com">
 
